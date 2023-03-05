@@ -68,7 +68,7 @@
             this.SM.Location = new System.Drawing.Point(130, 336);
             this.SM.Name = "SM";
             this.SM.Size = new System.Drawing.Size(150, 34);
-            this.SM.TabIndex = 2;
+            this.SM.TabIndex = 8;
             this.SM.Text = "บันทึก";
             this.SM.UseVisualStyleBackColor = true;
             this.SM.Click += new System.EventHandler(this.SM_Click);
@@ -105,7 +105,7 @@
             this.tbID.Location = new System.Drawing.Point(130, 96);
             this.tbID.Name = "tbID";
             this.tbID.Size = new System.Drawing.Size(150, 31);
-            this.tbID.TabIndex = 5;
+            this.tbID.TabIndex = 2;
             this.tbID.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label4
@@ -122,7 +122,7 @@
             this.tbmajor.Location = new System.Drawing.Point(130, 133);
             this.tbmajor.Name = "tbmajor";
             this.tbmajor.Size = new System.Drawing.Size(150, 31);
-            this.tbmajor.TabIndex = 7;
+            this.tbmajor.TabIndex = 3;
             this.tbmajor.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label5
@@ -139,7 +139,7 @@
             this.tbNgame.Location = new System.Drawing.Point(130, 170);
             this.tbNgame.Name = "tbNgame";
             this.tbNgame.Size = new System.Drawing.Size(150, 31);
-            this.tbNgame.TabIndex = 9;
+            this.tbNgame.TabIndex = 4;
             this.tbNgame.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label6
@@ -156,7 +156,7 @@
             this.tbmail.Location = new System.Drawing.Point(130, 207);
             this.tbmail.Name = "tbmail";
             this.tbmail.Size = new System.Drawing.Size(150, 31);
-            this.tbmail.TabIndex = 11;
+            this.tbmail.TabIndex = 5;
             this.tbmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label7
@@ -173,7 +173,7 @@
             this.tbphone.Location = new System.Drawing.Point(130, 244);
             this.tbphone.Name = "tbphone";
             this.tbphone.Size = new System.Drawing.Size(150, 31);
-            this.tbphone.TabIndex = 13;
+            this.tbphone.TabIndex = 6;
             this.tbphone.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label8
@@ -190,14 +190,14 @@
             this.tbage.Location = new System.Drawing.Point(130, 281);
             this.tbage.Name = "tbage";
             this.tbage.Size = new System.Drawing.Size(150, 31);
-            this.tbage.TabIndex = 15;
+            this.tbage.TabIndex = 7;
             this.tbage.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(310, 406);
+            this.ClientSize = new System.Drawing.Size(438, 406);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.tbage);
             this.Controls.Add(this.label7);

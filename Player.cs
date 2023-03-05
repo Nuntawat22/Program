@@ -21,37 +21,13 @@ namespace Program
             this.phone = phone;
             this.age = age;
         }
-        public string Name()
-        {
-            return name;
-        }
-        public string LastName()
-        {
-            return lastname;
-        }
-        public string ID()
-        {
-            return studentid;
-        }
-        public string Major()
-        {
-            return major;
-        }
-        public string Displaygame()
-        {
-            return displayname;
-        }
-        public string Mail()
-        {
-            return mail;
-        }
-        public string Phone()
-        {
-            return phone;
-        }
-        public int Age()
-        {
-            return age;
-        }
+        public string Name { get => name; }
+        public string LastName { get => lastname; }
+        public string Major { get => major; }
+        public string Displayname { get => displayname; }
+        public string Studentid { get => studentid; }
+        public string Mail { get => mail; }
+        public string Phone { get => phone; }
+        public int Age { get => age; }
     }
 }

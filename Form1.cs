@@ -2,7 +2,7 @@ namespace Program
 {
     public partial class Form1 : Form
     {
-        Player _newPlayer;
+        private Player _newPlayer;
         public Form1()
         {
             InitializeComponent();
@@ -32,9 +32,9 @@ namespace Program
                 MessageBox.Show("คุณใส่ข้อมูลไม่ถูกต้อง");
                 return;
             }
-            Player player = new Player(name, lastname, studentid, major, displayname, mail, phone, iAge);
+            _newPlayer = new Player(name, lastname, studentid, major, displayname, mail, phone, iAge);
+
             this.DialogResult = DialogResult.OK;
-            this.Close();
         }
         public Player getPlayer() 
         { 
