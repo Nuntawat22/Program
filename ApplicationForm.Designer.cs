@@ -58,7 +58,7 @@
             // allPlayerToolStripMenuItem
             // 
             this.allPlayerToolStripMenuItem.Name = "allPlayerToolStripMenuItem";
-            this.allPlayerToolStripMenuItem.Size = new System.Drawing.Size(186, 34);
+            this.allPlayerToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.allPlayerToolStripMenuItem.Text = "All Player";
             this.allPlayerToolStripMenuItem.Click += new System.EventHandler(this.allPlayerToolStripMenuItem_Click);
             // 
